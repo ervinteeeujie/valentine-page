@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-top: 100px;
+  background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffe4e1);
+  color: #d6336c;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #fff0f5;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 20px;
+  margin: 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#yes {
+  background-color: #ff69b4;
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.5);
+}
+
+#no {
+  position: absolute;
+  background-color: #f08080;
+  color: white;
+  box-shadow: 0 4px 8px rgba(240, 128, 128, 0.5);
+}
