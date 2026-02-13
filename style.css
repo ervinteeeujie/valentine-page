@@ -1,7 +1,11 @@
 body {
-  text-align: center;
+  display: flex;
+  flex-direction: column;   /* stack text and buttons vertically */
+  justify-content: center;  /* center vertically */
+  align-items: center;      /* center horizontally */
+  height: 100vh;            /* full viewport height */
+  margin: 0;
   font-family: 'Comic Sans MS', cursive, sans-serif;
-  margin-top: 100px;
   background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffe4e1);
   color: #d6336c;
 }
